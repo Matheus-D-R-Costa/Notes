@@ -5,12 +5,7 @@ function createWebserver() {
         console.log('> [webserver] Starting done!')
     }
 
-    function stop() {
-        console.log('> [webserver] Stopping...')
-        console.log('> [webserver] Gracefully waintking for all clients...')
-        console.log('> [webserver] Closing all ports...')
-        console.log('> [webserver] Stopping done!')
-    }
+
 
     return {
         start,
